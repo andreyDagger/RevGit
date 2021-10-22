@@ -144,6 +144,7 @@
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Gaming_field.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Online_game_server.cpp" />
     <ClCompile Include="Revert_functions.cpp" />
     <ClCompile Include="service.cpp" />
     <ClCompile Include="String_functions.cpp" />
@@ -153,6 +154,9 @@
     <ClInclude Include="Console_visualiser.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Gaming_field.h" />
+    <ClInclude Include="Online_game.h" />
+    <ClInclude Include="Online_game_client.h" />
+    <ClInclude Include="Online_game_server.h" />
     <ClInclude Include="service.h" />
     <ClInclude Include="String_exceptions.h" />
     <ClInclude Include="String_functions.h" />
