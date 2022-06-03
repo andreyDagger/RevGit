@@ -42,6 +42,9 @@
     <ClCompile Include="Revert_functions.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Online_game_server.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Gaming_field.h">
@@ -70,6 +73,15 @@
     </ClInclude>
     <ClInclude Include="Windowed_visualiser.h">
       <Filter>Файлы заголовков\Drawing_field</Filter>
+    </ClInclude>
+    <ClInclude Include="Online_game_server.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Online_game.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Online_game_client.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

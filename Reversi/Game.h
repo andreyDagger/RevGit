@@ -46,13 +46,7 @@ public:
 		int black_player;
 	};
 
-	/// <summary>
-	/// 
-	/// </summary>
-	/// <returns></returns>
-	string start_game(); // начинает игру с полем с заданными размерами, возвращает сообщение о конце игры
-	///
-	/////////////////////////
+	virtual string start_game(); // начинает игру с полем с заданными размерами, возвращает сообщение о конце игры
 
 	// Исключения:
 
@@ -68,10 +62,10 @@ public:
 	};
 	
 	Visualiser* vis;
-private:
+protected:
 
 	void input_sizeof_field(int& w, int& h); // осуществляет ввод размеров поля
 	Type_of_turn input_type_of_turn(); // осуществляет ввод режима хода
-	string write_end_information(Score); // выводит на экран информацию об окончании партии*/
+	string write_end_information(Score); // выводит на экран информацию об окончании партии
 
 };
