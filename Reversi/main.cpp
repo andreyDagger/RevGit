@@ -6,7 +6,6 @@
 
 #include "Game.h"
 #include "Gaming_field.h"
-#include "Online_game.h"
 
 using namespace std;
 
