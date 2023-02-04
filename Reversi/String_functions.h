@@ -4,16 +4,17 @@
 
 #include <iostream>
 #include <vector>
+#include <cstring>
 
 using namespace std;
 
 class String_functions {
 public:
-	static vector<string> split(const string s); // разделяет строку по пробелам и возвращает vector из слов, которые были разделены пробелами
-	static string mult(string, int); // умножает строку на число n (повторяет n раз)
+	static vector<string> split(const string s); // Г°Г Г§Г¤ГҐГ«ГїГҐГІ Г±ГІГ°Г®ГЄГі ГЇГ® ГЇГ°Г®ГЎГҐГ«Г Г¬ ГЁ ГўГ®Г§ГўГ°Г Г№Г ГҐГІ vector ГЁГ§ Г±Г«Г®Гў, ГЄГ®ГІГ®Г°Г»ГҐ ГЎГ»Г«ГЁ Г°Г Г§Г¤ГҐГ«ГҐГ­Г» ГЇГ°Г®ГЎГҐГ«Г Г¬ГЁ
+	static string mult(string, int); // ГіГ¬Г­Г®Г¦Г ГҐГІ Г±ГІГ°Г®ГЄГі Г­Г  Г·ГЁГ±Г«Г® n (ГЇГ®ГўГІГ®Г°ГїГҐГІ n Г°Г Г§)
 	static void pchar_copy(char*& dest, const char* src); // safe copying from one char* to another
 	static void pchar_copy_dest_null(char*& dest, const char* src); // safe copying from one char* to another if dest = nullptr
-	static int strcmp1(char* s1, char* s2); // сравнение строк с приоритетом на длину
+	static int strcmp1(char* s1, char* s2); // Г±Г°Г ГўГ­ГҐГ­ГЁГҐ Г±ГІГ°Г®ГЄ Г± ГЇГ°ГЁГ®Г°ГЁГІГҐГІГ®Г¬ Г­Г  Г¤Г«ГЁГ­Гі
 	static string char_to_str(const char* s); // transforms char to string
 	static string int_to_str(int); // transforms int to string
 	static string input_string();
